@@ -128,10 +128,4 @@ API Endpoints
 
 All API endpoints require token-based authentication. Obtain an authentication token by logging in as a superuser.
 
-# Testing
-
-To run the test suite, execute the following command:
-
-```bash
-python manage.py test
 
