@@ -8,7 +8,7 @@ To set up the Vendor Management System API locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/vendor-management-system.git
+   git clone https://github.com/shivamjai17/Vendor-Management-System
 2. Navigate to the project directory:
      ```bash
     cd vendor-management-system
