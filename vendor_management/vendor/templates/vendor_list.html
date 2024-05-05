@@ -1,0 +1,17 @@
+<!-- vendor_list.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List of Vendors</title>
+</head>
+<body>
+    <h1>List of Vendors</h1>
+    <ul>
+        {% for vendor in vendors %}
+            <li>{{ vendor.name }} - {{ vendor.contact_details }} - {{ vendor.address }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
