@@ -11,18 +11,23 @@ To set up the Vendor Management System API locally, follow these steps:
    git clone https://github.com/yourusername/vendor-management-system.git
 2. Navigate to the project directory:
      ```bash
-        cd vendor-management-system
+    cd vendor-management-system
 3. Install dependencies:
-    '''base
+    ```base
     pip install -r requirements.txt
+4. Activate Virtual Environment
+    ```base
+    cd env
+    scripts/activate
 4. Apply database migrations:
-    '''base
+    ```base
     python manage.py migrate
 5. python manage.py createsuperuser
-    '''base
+    ```base
     python manage.py createsuperuser
+
 6. Start the development server:
-    '''base
+    ```base
     python manage.py runserver
 7. Access the API at http://127.0.0.1:8000/api/
 
